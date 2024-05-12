@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+.mainContainer {
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  
+  
+}
+
+.mobileContainer {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  /* height: 100%; */
+  margin-bottom: 40px;
+}
+
+.topArea {
+  height: 40%;
+  width: 100%;
+  background-image: url("conference.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 30px;
+  min-height: 355px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  height: 85px;
+  width: 100%;
+  background-color: white;
+}
+
+.companyName {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.logo {
+  z-index: 1;
+  margin-left: 20px;
+}
+
+input,
+button {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.topText {
+  font-family: "Russo One";
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.footer {
+  position: relative;
+  background-color: black;
+  color: gainsboro;
+  bottom: 6px;
+  padding-left: 10px;
+}
+
+/* .placeholder {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 100px
+} */
+
+
+
+
+.pageFooter {
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+}
+
+.placeholderContainer {
+  padding-bottom: 30px;
+  flex-grow: 1;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) {
+  .logo {
+    height: 32px;
+  }
+
+  .hamburgerIcon {
+    position: absolute;
+    right: 10px;
+    height: 40px;
+    z-index: 1;
+  }
+  
+  .links {
+    max-height: 0px;
+    overflow-y: hidden;
+    position: absolute;
+    color: white;
+    list-style: none;
+    background-color: black;
+    top: 69px;
+    width: fit-content;
+    padding-left: 0;
+    z-index: 1;
+    right: 0;
+    transition: max-height 0.5s ease-in-out;
+    /* border: 1px solid black; */
+  }
+
+  .links > li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    /* border: 1px solid white; */
+  }
+
+  .links > li:hover {
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+  }
+
+  .topText {
+    text-align: left;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 85px;
+    margin-left: 5vh;
+  }
+
+  .searchContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    width: 100%;
+  }
+
+  .searchBar {
+    border: none;
+    height: 5vh;
+    width: 90%;
+    height: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .searchBtn {
+    width: 90%;
+    height: 60px;
+    border-radius: 0;
+    background-color: rgb(65, 63, 63);
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+  }
+
+  .placeholderContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .placeholder {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .placeholder {
+    margin-top: 10px;
+    /* height: 350px;
+    width: 480px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    height: 36px;
+  }
+
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .hamburgerIcon {
+    display: none;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .links {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    width: fit-content;
+    padding-left: 0;
+    z-index: 1;
+    right: 0;
+    margin-right: 20px;
+  }
+
+  .links > li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+
+  .links > li:hover {
+    /* background-color: rgb(80, 79, 79); */
+    cursor: pointer;
+  }
+
+  .topText {
+    text-align: left;
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 90px;
+    margin-left: 10vh;
+  }
+  .searchContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .searchBar {
+    border: none;
+    height: 5vh;
+    width: 40%;
+    height: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .searchBtn {
+    width: 20%;
+    height: 60px;
+    border-radius: 0;
+    background-color: rgb(65, 63, 63);
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+  }
+
+  .placeholderContainer {
+    /* margin-top: 10px; */
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+
+  .placeholder {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 200px;
+    width: 300px;
+    object-fit: contain;
+  }
+
+  .loginBtn {
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .mobileContainer {
+    height: 100%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+  .placeholderContainer {
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+  }
+
+  .placeholder {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 450px;
+    height: 300px;
+  }
+  
+}
