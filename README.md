@@ -33,7 +33,7 @@
     <a href="https://github.com/pouyaniranpour/missionZero0"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/pouyaniranpour/missionZero0">View Demo</a>
+    <a href="https://adorable-youtiao-ee770f.netlify.app">View Demo</a>
     ·
     <a href="https://github.com/pouyaniranpour/missionZero0/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
