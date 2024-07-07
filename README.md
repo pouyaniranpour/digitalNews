@@ -125,7 +125,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Pouyan Iranpour - [@twitter_handle](https://twitter.com/twitter_handle) - pouyani@missionreadyhq.com
+Pouyan Iranpour - pouyani@missionreadyhq.com
 
 Project Link: [https://github.com/pouyaniranpour/missionZero0](https://github.com/pouyaniranpour/missionZero0)
 
