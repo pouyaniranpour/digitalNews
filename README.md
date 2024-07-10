@@ -74,7 +74,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://proud-water-02072950f.5.azurestaticapps.net/)
+[![Product Name Screen Shot][product-screenshot]](https://adorable-youtiao-ee770f.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
