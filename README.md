@@ -25,7 +25,7 @@
     <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Mission Zero</h3>
+<h3 align="center">Digital News/h3>
 
   <p align="center">
     Marketing Association NZ: Digital News home page
